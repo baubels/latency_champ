@@ -1,4 +1,4 @@
-# latency_champ
+# Fast stock price prediction on microcontrollers
 
 We seek to predict single ticker prices on a microcontroller. Unfortunately, in the competition, the small device used for running code only had sklearn and numpy installed, so for that reason a simple MLP neural network using sklearn had to be made. It produced a working implementation, which somehow got the highest prediction rate in the competition. On the other hand, of the top contenders, it was the slowest! On average, the inference time on a bunch of examples was 0.9 seconds vs. the 0.2 seconds of the others. 
 
